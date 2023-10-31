@@ -3,7 +3,9 @@ from datetime import datetime
 
 from django.http import HttpResponse
 
+
 def index(request):
+    print('Hello from Vercel!')
     now = datetime.now()
     html = f'''
     <html>
