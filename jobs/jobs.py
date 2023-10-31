@@ -35,5 +35,6 @@ def schedule_api():
 
         print(resp['requestId'])
 
-    except:
+    except Exception as e:
+        print(f'Error: {e}')
         pass
